@@ -28,8 +28,10 @@ nav{
             color: $third;
         }
        } 
+    }
 
-
+   > a{
+        color: $second;
     }
 }
 
