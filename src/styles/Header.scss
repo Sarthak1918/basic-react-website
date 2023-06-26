@@ -19,6 +19,7 @@ nav{
         width: 70%;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
 
        > a{
         color: $dark;
@@ -28,6 +29,20 @@ nav{
             color: $third;
         }
        } 
+
+       button{
+        border: none;
+        border-radius: 3px;
+        padding: 5px 6px;
+        background-color: rgb(58, 145, 206);
+
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(99, 179, 237);
+
+        }
+       }
+
     }
 
    > a{
