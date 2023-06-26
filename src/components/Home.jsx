@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Home.scss'
 import vg from "../assets/2.webp"
-import { AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube, AiFillInstagram } from "react-icons/ai"
+import { AiFillAmazonCircle, AiFillYoutube, AiFillInstagram } from "react-icons/ai"
 import { FcGoogle } from "react-icons/fc"
 const Home = () => {
     return (
